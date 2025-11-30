@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    direction: rtl;
+    background: #e6fffe;
+}
+
+header {
+    background: #4ccfe0;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(45deg, #ffb3d9, #4dd5ff);
+    color: white;
+}
+
+#hero button {
+    padding: 12px 25px;
+    border: none;
+    background: gold;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#hero button:hover {
+    background: black;
+    color: gold;
+}
+
+#products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #80f7ff;
+    transition: transform .3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #4df9ff;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: gold;
+}
+
+footer {
+    background: #4dbeff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
